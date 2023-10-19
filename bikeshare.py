@@ -172,7 +172,7 @@ def trip_duration_stats(df):
     total_duration = df['Trip Duration'].sum()
     minute, second = divmod(total_duration, 60)
     hour, minute = divmod(minute, 60)                  
-    print("The total travel time is {} hour(s) {} minute(s) {} second(s)".format(hour,minute,second))
+    print(f"The total travel time is {hour} hour(s) {minute} minute(s) {second} second(s)")
                      
     # TO DO: display mean travel time
     average_duration = round(df['Trip Duration'].mean())
@@ -200,10 +200,8 @@ def user_stats(df):
     # TO DO: Display counts of gender
    # i used "try" to display the count of gender for all users but not all df have the gener column...
     try:
-        gender_count = df['Gender'].value_counts()
-        print("\nThe total count of each gender is:\n", gender_count)
-    except:
-        print("\nThere is no 'Gender' column in this df.")
+    except KeyError:
+        print("Gender information is not available for this dataset.")
         
     # TO DO: Display earliest, most recent, and most common year of birth
     #Likewise, I would "try" method
