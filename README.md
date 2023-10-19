@@ -34,3 +34,8 @@ new_york_city.csv
 This code was authored by Modesta Uzo. This project was inspired by the educational content and coursework provided by Udacity.
 I acknowledge the valuable contributions of the open-source community and the wealth of knowledge available on this platform that have influenced this project.
 
+
+### Contribute and Collaborate
+Feel free to collaborate and get involved. If you have questions or ideas, don't hesitate to reach out to me at:
+modestaifeamaka@gmail.com
+
