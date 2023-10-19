@@ -200,10 +200,8 @@ def user_stats(df):
     # TO DO: Display counts of gender
    # i used "try" to display the count of gender for all users but not all df have the gener column...
     try:
-        gender_count = df['Gender'].value_counts()
-        print("\nThe total count of each gender is:\n", gender_count)
-    except:
-        print("\nThere is no 'Gender' column in this df.")
+    except KeyError:
+        print("Gender information is not available for this dataset.")
         
     # TO DO: Display earliest, most recent, and most common year of birth
     #Likewise, I would "try" method
