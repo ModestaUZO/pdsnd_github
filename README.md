@@ -6,6 +6,10 @@
 ### Project Title
 Optimizing BikeShare Proect with Git Version Control
 
+
+### Prerequisites
+Before you can work with or contribute to this project, make sure you have git installed on your local machine to clone the project repository, create branches, commit changes and collaborate with others. You can download git from [here](https://git-scm.com/downloads/).
+
 ### Description
 The project involves the practical application of version control and Git through the refactoring of a previous BikeShare project. It encompasses several key tasks:
 
